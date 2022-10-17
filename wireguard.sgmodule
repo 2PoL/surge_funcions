@@ -1,4 +1,3 @@
-
 #!name=WireGuard LAN
 #!desc=Make the WireGuard ip segment use specific proxy
 

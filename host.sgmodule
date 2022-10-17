@@ -1,7 +1,6 @@
 #!name=DNS for some domains
 #!desc=resolve some domains with specific dns
 #!author=2PoL
-#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Server.png
 
 [Host]
 # > Firebase Cloud
