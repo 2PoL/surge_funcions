@@ -1,0 +1,11 @@
+#!name=temp rule
+#!desc=template rule
+
+[Rule]
+PROCESS-NAME,/Applications/Free Download Manager.app/Contents/MacOS/fdm,🌐 Proxy
+DOMAIN,52pt.site,🌐 Proxy
+DOMAIN,pt.btschool.club,🌐 Proxy
+DOMAIN,hdtime.org,🌐 Proxy
+DOMAIN,pttime.org,🌐 Proxy
+DOMAIN,torrentleech.org,🌐 Proxy
+DOMAIN,azusa.wiki🌐 Proxy
