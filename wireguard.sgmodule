@@ -2,6 +2,5 @@
 #!desc=Make the WireGuard ip segment use specific proxy
 
 [Rule]
-# AND,((OR,((SUBNET,TYPE:CELLULAR), (NOT, ((OR, ((SUBNET,SSID:shy_5G WiFi), (SUBNET,# SSID:shy_2.4G WiFi))))))), (IP-CIDR,192.168.2.0/24)),wireguard-home
-# IP-CIDR,192.168.2.0/24,wireguard-home
-IP-CIDR,100.0.0.0/8,DIRECT
+AND,((OR,((SUBNET,TYPE:CELLULAR), (NOT, ((OR, ((SUBNET,SSID:shy_5G WiFi), (SUBNET,SSID:shy_3.4G WiFi))))))), (IP-CIDR,192.168.2.0/24)),wireguard-home
+IP-CIDR,192.168.2.0/24,wireguard-home
